@@ -54,28 +54,40 @@
     </style>
     
     <div class="spinner-container">
-
         <select class="spinner">
+            
             <option value="opcion1">Ingenierias</option>
             <option value="opcion2">Ingenieria Industrial</option>
             <option value="opcion3">Ingenieria Mecanica</option>
             <option value="opcion4">Ingenieria en Sistemas Computacionales</option>
         </select>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <select class="spinner">
             <option value="opcion1">Licenciaturas</option>
             <option value="opcion2">Licenciatura en Administracion de Empresas</option>
             <option value="opcion3">Licenciatura en Agronomia y Veterinaria</option>
             <option value="opcion4">Licenciatura en Educacion</option>
         </select>
-        
-      
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <select class="spinner">
             <option value="opcion1">Maestrias</option>
             <option value="opcion2">Maestria en Administracion</option>
             <option value="opcion3">Maestria en Terapia Familiar</option>
             <option value="opcion4">Maestria en Mercadotecnia</option>
         </select>
-
+           <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <select class="spinner">
             <option value="opcion1">Doctorados</option>
             <option value="opcion1">Doctorado en Educacion</option>
@@ -88,5 +100,19 @@
         <div id="dynamic-footer">
         </div>
     </footer>
+    <script>
+        // Agregar evento para cambiar el color de fondo de las opciones cuando se abre el select
+        const spinners = document.querySelectorAll('.spinner');
+        spinners.forEach(spinner => {
+            spinner.addEventListener('focus', function() {
+                this.style.backgroundColor = 'lightblue'; // Cambia el color de fondo del select
+            });
+            spinner.addEventListener('blur', function() {
+                this.style.backgroundColor = ''; // Restaura el color de fondo del select cuando se cierra
+            });
+        });
+    </script>
+
+    <script src="/Funcionalidad/Footer.js"></script>
 </body>
 </html>
