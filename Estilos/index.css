@@ -125,33 +125,3 @@ button:focus {
     height: 50px;
     text-align: center;
 }
-
-/*Acerca de Nosotros*/
-/*body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    text-align: center;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-}
-
-.text {
-    margin-top: 10px;
-}*/
