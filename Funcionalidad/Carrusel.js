@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const carouselContainer = document.querySelector('.carousel-container');
+    //const carouselContainer = document.querySelector('.carousel-container');
     const slides = document.querySelectorAll('.carousel-slide');
     const prevBtn = document.getElementById('prevBtn');
     const nextBtn = document.getElementById('nextBtn');
@@ -13,7 +13,15 @@ document.addEventListener("DOMContentLoaded", function() {
             slideIndex = 0;
         }
 
-        carouselContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
+        //carouselContainer.style.transform = `translateX(-${slideIndex * 100}%)`;
+
+        //ocultar diapositivas anteriores
+        slides.forEach(slide => {
+            slide.style.display = 'none';
+        });
+
+        //mostrar actual img
+        slides[slideIndex].style.display = 'block';
     }
 
     function prevSlide() {

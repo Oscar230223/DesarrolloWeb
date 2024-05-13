@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menuItems = [
-        { name: "Inicio", url: "index.html" },
-        { name: "Acerca de", url: "SobreNosotros.html" },
-        { name: "Examen de Admision", url: "ExamenAdmision.html" },
-        { name: "Carreras", url: "Carreras.html" },
-        { name: "Becas", url: "Becas.html"}
+        { name: "INICIO", url: "index.html" },
+        { name: "ACERCA DE NOSOTROS", url: "SobreNosotros.html" },
+        { name: "ADMISIÓN", url: "ExamenAdmision.html" },
+        { name: "CARRERAS", url: "Carreras.html" },
+        { name: "BECAS", url: "Becas.html"}
     ];
 
     const menuList = document.getElementById("menu-list");
