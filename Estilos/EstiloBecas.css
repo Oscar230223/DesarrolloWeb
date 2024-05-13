@@ -1,0 +1,14 @@
+ .recuadro {
+    background-color: #90D26D; 
+    padding: 20px; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    margin-left: 20px; 
+    width: 60%; 
+  }
+  img {
+    float: left; 
+    margin-right: 20px; 
+    width: 300px; 
+    height: auto; 
+  }

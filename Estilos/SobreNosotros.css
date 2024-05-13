@@ -17,8 +17,8 @@ img {
 
 .container {
     margin-top: 20px;
-    display: flex; /* Cambiado a flex */
-    flex-direction: column; /* Cambiado a column */
+    display: flex; 
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
 }

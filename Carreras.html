@@ -6,18 +6,86 @@
     <title>Document</title>
     <link rel="stylesheet" href="/Estilos/EstiloMenu.css">
     <link rel="stylesheet" href="/Estilos/EstiloFooter.css">
+    <link rel="stylesheet" href="/Estilos/Spinner.css">
 </head>
+
+
 <body>
     <div id="menu">
         <ul id="menu-list">
-            <!-- Aquí se añadirán los elementos del menú dinámicamente -->
         </ul>
     </div>
     <script src="/Funcionalidad/Menu.js"></script>
     <h1> Carreras </h1>
+
+    <style>
+        .spinner-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .spinner {
+            width: 100%; 
+            margin-bottom: 10px; 
+            padding: 10px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            font-size: 40px;
+            background-color: #AFD198;
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .spinner {
+                width: calc(50% - 10px); 
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .spinner {
+                width: 100%; 
+            }
+        }
+    </style>
+    
+    <div class="spinner-container">
+
+        <select class="spinner">
+            <option value="opcion1">Ingenierias</option>
+            <option value="opcion2">Ingenieria Industrial</option>
+            <option value="opcion3">Ingenieria Mecanica</option>
+            <option value="opcion4">Ingenieria en Sistemas Computacionales</option>
+        </select>
+        <select class="spinner">
+            <option value="opcion1">Licenciaturas</option>
+            <option value="opcion2">Licenciatura en Administracion de Empresas</option>
+            <option value="opcion3">Licenciatura en Agronomia y Veterinaria</option>
+            <option value="opcion4">Licenciatura en Educacion</option>
+        </select>
+        
+      
+        <select class="spinner">
+            <option value="opcion1">Maestrias</option>
+            <option value="opcion2">Maestria en Administracion</option>
+            <option value="opcion3">Maestria en Terapia Familiar</option>
+            <option value="opcion4">Maestria en Mercadotecnia</option>
+        </select>
+
+        <select class="spinner">
+            <option value="opcion1">Doctorados</option>
+            <option value="opcion1">Doctorado en Educacion</option>
+            <option value="opcion2">Doctorado en Alta Direccion</option>
+            <option value="opcion3">Doctorado en Medicina</option>
+          </select>
+      </div>
+
     <footer>
         <div id="dynamic-footer">
-            <!-- Aquí se añadirá el mensaje dinámicamente -->
         </div>
     </footer>
 </body>
