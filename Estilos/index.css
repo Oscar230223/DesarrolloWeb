@@ -6,7 +6,7 @@ body {
 
 /*Estilos header*/
 header {
-    font-size: 30px;
+    font-size: 15px;
     object-fit: contain;
     width: 100%;
     margin: 0 auto;
@@ -15,18 +15,21 @@ header {
     background-color: #f7f7f7;
 }
 
+h1 {
+    font-size: 35px;
+}
 .ufcj {
     letter-spacing: 3px;
     color: #052026;
     font-weight: 700;
     text-align: end;
-    transform: translate(6%);
+    transform: translate(3%);
 }
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-position: center;
-    transform: translate(25%);
+    transform: translate(10%);
 }
 
 /*Estilos navbar*/
