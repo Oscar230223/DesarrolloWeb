@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/Estilos/EstiloFooter.css">
     <link rel="stylesheet" href="/Estilos/index.css">
     <link rel="stylesheet" href="/Estilos/spiner.css">
+    <link rel="stylesheet" href="/Estilos/Buscador.css">
 </head>
 <body>
     <header class="">
@@ -23,6 +24,15 @@
             </a>
         </div>
         <b><h1 class="ufcj">UNIVERSIDAD FRONTERIZA DE CIUDAD JUÁREZ</h1></b>
+        <div class="container">
+            <h1 class="title"></h1>
+            <div class="buscar-wrapper">
+                <ul id="results" class="results"></ul>
+                <input type="text" id="buscar" placeholder="Buscar" class="buscar-input">
+                <button onclick="buscar()" class="buscar-button">Buscar</button>
+            </div>
+        </div>
+        <script src="/Funcionalidad/Buscador.js"></script>
         </div>
     </header>
 

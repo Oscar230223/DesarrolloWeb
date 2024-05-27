@@ -1,0 +1,28 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.buscar-wrapper {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 27px;
+    right: 10px;
+}
+.buscar-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    top: 27px;
+}
+.buscar-button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    position: relative;
+    top: 27px;
+}
