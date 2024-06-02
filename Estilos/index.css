@@ -48,7 +48,7 @@ h1 {
 
 #menu-list li {
     display: inline;
-    margin: 0 60px; /*espacio entre titles*/
+    margin: 0 40px; /*espacio entre titles*/
 }
 
 #menu-list li:first-child {

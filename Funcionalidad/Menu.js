@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const menuItems = [
         { name: "INICIO", url: "index.html" },
+        { name: "ALUMNOS", url: "alumnos.html"},
         { name: "ACERCA DE NOSOTROS", url: "SobreNosotros.html" },
         { name: "ADMISIÓN", url: "ExamenAdmision.html" },
         { name: "CARRERAS", url: "Carreras.html" },

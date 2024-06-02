@@ -3,7 +3,12 @@ let data = [
     { name: "Becas", url: "/Becas.html" },
     { name: "Carreras", url: "/Carreras.html" },
     { name: "Examen de Admision", url: "/ExamenAdmision.html" },
-    { name: "Sobre Nosotros", url: "/SobreNosotros.html" }
+    { name: "Sobre Nosotros", url: "/SobreNosotros.html" },
+    { name: "Registro", url: "/registro.html"},
+    { name: "Inicio de Sesion", url: "/inicio_sesion.html"},
+    { name: "Quejas", url: "/BuzonQuejas.html"},
+    { name: "Chat", url: "/Chat.html"},
+    { name: "Recuperar Contraseña", url: "/Recuperar_Contraseña.html"}
 ];
 
 function buscar() {
