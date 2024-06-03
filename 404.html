@@ -3,7 +3,7 @@
 <head>
     <title>Page Not Found 404</title>
     <link rel="icon" href="/Imagenes/favicon.ico" type="image/x-icon">
-    <!--metadatos-->
+    <!-- Metadatos -->
     <meta charset="UTF-8">
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,33 +14,65 @@
     <link rel="stylesheet" href="/Estilos/EstiloFooter.css">
 
     <style>
-    h1 {
-        text-align: center;
-        margin: auto;
-        font-weight: 700;
-    }
+        /* Estilos adicionales */
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    img {
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
+        .col-md-6 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
-    div {
-        margin-top: 115px;
-        margin-bottom: 0;
-    }
+        h1 {
+            font-weight: 700;
+            font-size: 150px;
+            color: black;
+        }
 
-    body {
-        background-color: #f7f7f7;
-    }
+        p {
+            font-style: italic;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        img {
+            width: 60%;
+            height: auto;
+        }
+
+        body {
+            background-color: #f7f7f7;
+        }
+        
+        .button {
+            background-color: #f7f7f7;
+            border: 1px solid;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <center><img src="/Imagenes/favicon.ico" alt="Universidad Fronteriza de Ciudad Juárez"></center>
-        <h1>404</h1>
-       <b><h1>Page Not Found</h1></b> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>404</h1>
+                <p>
+                    Disculpa, parece que la página que estás buscando no se encuentra en nuestro sitio.
+                    Por favor, regresa al inicio y encuentra la información que necesitas.
+                </p>
+                <button type="button" class="button"  onclick="window.location.href='index.html'">Inicio</button>
+            </div>
+            <div class="col-md-6">
+                <img src="/Imagenes/404.png" alt="Universidad Fronteriza de Ciudad Juárez">
+            </div>
+        </div>
     </div>
 </body>
 </html>
